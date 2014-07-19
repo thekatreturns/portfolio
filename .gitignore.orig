@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+dploy.yaml
+_site/feed.xml
+=======
+_site
+_config-perso.yml
+>>>>>>> a6df14c... initial commit
