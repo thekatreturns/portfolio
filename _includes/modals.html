@@ -14,22 +14,22 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="img/portfolio/{{ post.modal-id }}/{{ post.featured }}" class="img-responsive img-centered" alt="{{ post.title }}">
                             <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
+
+                            <a class="btn btn-primary play-now" href={{ post.link }} target="_blank">Play now</a>
+
+                            {% if post.screenshots %}
+                              <h3>Screenshots</h3>
+                              <div class="screenshots">
+                                {% for screenshot in post.screenshots %}
+                                  <a href="img/portfolio/{{ post.modal-id }}/{{ screenshot }}" target="_blank">
+                                    <img class="screenshot" src="img/portfolio/{{ post.modal-id }}/{{ screenshot }}">
+                                  </a>
+                                {% endfor %}
+                              </div>
+                              {% endif %}
+                            
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
