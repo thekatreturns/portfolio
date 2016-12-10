@@ -423,7 +423,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 60px 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -438,12 +438,21 @@ footer .footer-below {
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+.portfolio-modal .modal-content .post-description {
+    background-color: #{{ site.color.dark }};
+    color: #{{ site.color.light }};
+    font-size: 20px;
+    padding: 20px;
 }
 
-.portfolio-modal .modal-content .item-details {
-    margin: 30px 0;
+.portfolio-modal .modal-content .post-content {
+    text-align: left;
+    color: #{{ site.color.dark }};
+}
+
+
+.portfolio-modal .modal-content .post-content a {
+  text-decoration: underline;
 }
 
 .portfolio-modal .modal-content .screenshots {

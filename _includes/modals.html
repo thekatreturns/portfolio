@@ -14,10 +14,14 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.modal-id }}/{{ post.featured }}" class="img-responsive img-centered" alt="{{ post.title }}">
-                            <p>{{ post.description }}</p>
+                            <a class="" href={{ post.link }} target="_blank">
+                              <img src="img/portfolio/{{ post.modal-id }}/{{ post.featured }}" class="img-responsive img-centered" alt="{{ post.title }}">
+                            </a>
+                            <div class="post-description">{{ post.description }}</div>
 
                             <a class="btn btn-primary play-now" href={{ post.link }} target="_blank">Play now</a>
+
+                            <div class="post-content">{{ post.content }}</div>
 
                             {% if post.screenshots %}
                               <h3>Screenshots</h3>
