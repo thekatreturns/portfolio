@@ -2,7 +2,7 @@
 layout: default
 modal-id: quote-decoder
 title: Quote Decoder
-link: https://apps.facebook.com/quote-decoder/
+link: https://quote-owl-fb.herokuapp.com/
 featured: splash.jpg
 screenshots:
 - screenshot1.jpg
