@@ -18,10 +18,10 @@ The power behind these demos is that the engine and rules for the narrative are 
 
 You can play each of these variations here:
 
-### <a href="little-red-riding-hood/classic/">Classic text-based</a>
+### <a href="http://blog.elmnarrativeengine.com/sample-stories/little-red-riding-hood/classic/">Classic text-based</a>
 
-### <a href="little-red-riding-hood/point-and-click/">Point-and-click adventure style</a>
+### <a href="http://blog.elmnarrativeengine.com/sample-stories/little-red-riding-hood/point-and-click/">Point-and-click adventure style</a>
 
-### <a href="little-red-riding-hood/top-down/">Top-down RPG style</a>
+### <a href="http://blog.elmnarrativeengine.com/sample-stories/little-red-riding-hood/top-down/">Top-down RPG style</a>
 
   
