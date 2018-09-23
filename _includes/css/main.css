@@ -418,6 +418,7 @@ footer .footer-below {
 @media(min-width:767px) {
     .portfolio-modal {
         width: 90%;
+        height: 90%;
         margin: auto;
     }
 }
