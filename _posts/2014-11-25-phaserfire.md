@@ -5,6 +5,7 @@ title: Phaserfire
 link: http://output.jsbin.com/humivu/27/
 featured: splash.jpg
 description: Classic space shooter game made to teach the phaser.js game engine
+order: 400
 
 ---
 

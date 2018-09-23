@@ -9,6 +9,7 @@ screenshots:
 - screenshot2.jpg
 - screenshot3.jpg
 description: Demo game built with the Elm Narrative Engine
+order: 200
 
 ---
 

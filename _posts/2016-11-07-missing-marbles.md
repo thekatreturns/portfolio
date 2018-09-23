@@ -7,6 +7,7 @@ featured: splash.jpg
 screenshots:
 - screenshot1.jpg
 description: A sample narrative game demonstrating my Elm Narrative Engine
+order: 800
 
 ---
 

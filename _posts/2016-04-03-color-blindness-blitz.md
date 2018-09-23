@@ -9,6 +9,7 @@ screenshots:
 - screenshot2.jpg
 - screenshot3.jpg
 description: A fast-paced, mind-trick game -- just match the colors, how hard can it be?
+order: 700
 
 ---
 

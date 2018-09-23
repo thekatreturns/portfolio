@@ -5,6 +5,7 @@ title: AI Battleship
 link: https://jschomay.github.io/elixir-battleship-guesser/
 featured: splash.jpg
 description: Battleship game demoing an AI powered by behavior trees
+order: 500
 
 ---
 

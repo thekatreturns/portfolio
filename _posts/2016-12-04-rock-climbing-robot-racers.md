@@ -7,6 +7,7 @@ featured: splash.jpg
 screenshots:
 - screenshot.jpg
 description: Race yourself or a friend up a wall of scattered letters with the keyboard.  It's "Twister" for your fingers!
+order: 100
 
 ---
 

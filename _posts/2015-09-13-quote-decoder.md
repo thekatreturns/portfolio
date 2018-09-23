@@ -14,6 +14,7 @@ screenshots:
 - mobile3.jpg
 - mobile4.jpg
 description: A challenging word puzzle game somewhere between Hangman and Sudoku.
+order: 300
 
 ---
 

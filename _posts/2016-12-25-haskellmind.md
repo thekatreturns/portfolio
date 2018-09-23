@@ -5,6 +5,7 @@ title: Haskellmind
 link: http://haskellmind.herokuapp.com/
 featured: splash.jpg
 description: See if the computer can guess your secret code
+order: 600
 
 ---
 
