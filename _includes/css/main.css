@@ -88,7 +88,7 @@ header {
 
 header .container {
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 header .logo {
@@ -114,10 +114,8 @@ header .logo {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-family: "Luckiest Guy",Helvetica,Arial,sans-serif;
+    font-size: 2.5em;
 }
 
 header .intro-text .skills {
@@ -126,12 +124,8 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
-        padding-bottom: 100px;
-    }
-
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 2.5em;
     }
 
     header .intro-text .skills {
@@ -211,7 +205,7 @@ section.success {
 }
 
 #portfolio {
-  border-top: 7px solid;
+  border-top: 7px solid #aaa};
 }
 
 #portfolio .portfolio-item {
@@ -224,21 +218,27 @@ section.success {
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#portfolio .portfolio-item .portfolio-link img {
+  transition: transform ease .5s;
+  -webkit-transition: transform ease .5s;
+  -moz-transition: transform ease .5s;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
-    height: 100%;
-    opacity: 0;
-    background: rgba(200, 200, 200,.9);
+    height: 20%;
+    opacity: 0.8;
+    background: black;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    bottom: 0;
+    overflow: hidden;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -261,6 +261,22 @@ section.success {
     margin: 0;
 }
 
+@media(min-width:767px) {
+  #portfolio .portfolio-item .portfolio-link:hover img {
+    transform: scale(1.1);
+  }
+
+  #portfolio .portfolio-item .portfolio-link .caption {
+      opacity: 0;
+      bottom: -50px;
+  }
+
+  #portfolio .portfolio-item .portfolio-link:hover .caption {
+      opacity: 0.8;
+      bottom: 0;
+  }
+}
+
 #portfolio * {
     z-index: 2;
 }
@@ -269,6 +285,10 @@ section.success {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
+}
+
+#portfolio .portfolio-item {
+    margin: 0 0 15px;
 }
 
 .btn-outline {

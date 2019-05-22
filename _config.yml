@@ -1,9 +1,9 @@
 # Site settings
-title: Juggle Monkey Games
-email: jeff@jugglemonkey.com
-url: https://jugglemonkey.com
+title: Jeff's Games
+email: jeffpublic@gmail.com
+url: https://games.jeffschomay.com
 description: "HTML games portfolio"
-skills: "More fun than a barrel of monkeys"
+skills: "Narrative and Puzzle games"
 meta_author: Jeff Schomay
 
 # Google webmaster tools
@@ -35,8 +35,8 @@ social:
     url: http://twitter.com/jschomay
   - title: github
     url: http://github.com/jschomay
-  - title: envelope
-    url: mailto:jeff@jugglemonkey.com
+  - title: cogs
+    url: http://elmnarrativeengine.com/
 
 # Build settings
 markdown: kramdown

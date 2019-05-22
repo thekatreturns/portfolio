@@ -7,12 +7,12 @@
                 {% for post in ordered_posts %}
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                            <img src="img/portfolio/{{ post.modal-id }}/{{ post.featured }}" class="img-responsive" alt="{{ post.alt }}">
                             <div class="caption">
                                 <div class="caption-content">
                                     {{ post.title }}
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.modal-id }}/{{ post.featured }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
                     </div>
                 {% endfor %}
